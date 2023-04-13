@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url("Space.JPG");
+    background-color: #000000;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #014652;
+    color: paleturquoise;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: paleturquoise;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+.content {
+    width: 75%;
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+
+.info ul {
+    list-style: square;
+}
+
+.info {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    background-color: #67ffde;
+    color: #310080;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px grey;
+    margin: 30px;
+    justify-content: center;
+
+    
+}
+
+.info button {
+    height: 200px; 
+    width: 400px; 
+    font-size: 18px; 
+    margin-top: 20px;
+    margin-left: 50px;
+    max-height: 50%; width: 75%;
+
+}
+
+#SG{
+    background-image: url("PSG.jpg"); background-size: 100%;
+    background-color: black;
+}
+
+#HTML{
+    background-image: url("HTML.jpg"); background-size: 100%;
+    background-color: black;
+}
+
+.info img {
+    max-height: 100%; width: 100%;
+    object-fit: cover;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+#AM {
+    width: 100%;
+}
+#CL {
+    width: 100%;
+    color: #67ffde;
+    background-color: #310080;
+}
+#W{
+    width: 100%;
+}
+#CM{
+    width: 100%;
+    color: #67ffde;
+    background-color: #310080;
+}
+
+
+@media screen and (max-width: 992px) {
+    .info{
+      width: 100%
+    }
+    }
+    .header nav ul{
+      font-size: 75%;
+    }
+  
+  @media screen and (max-width: 768px) {
+    .card{
+      width: 100%;
+    }
+    .header nav ul{
+        font-size: 50%;
+      }
+  }
