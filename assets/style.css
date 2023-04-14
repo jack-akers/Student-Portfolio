@@ -69,7 +69,7 @@ p {
     background-color: #67ffde;
     color: #310080;
     border-radius: 25px;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 20px grey;
     margin: 30px;
     justify-content: center;
 
@@ -89,13 +89,21 @@ p {
 #SG{
     background-image: url("PSG.jpg"); background-size: 100%;
     background-color: black;
+    font-weight: bold;
 }
 
 #HTML{
     background-image: url("HTML.jpg"); background-size: 100%;
     background-color: black;
-}
+} 
 
+.info a{
+    color:rgb(0, 0, 0);
+    width: 0px; height: 0px;
+    background-color: transparent;
+    box-shadow: none;
+    
+}
 .info img {
     max-height: 100%; width: 100%;
     object-fit: cover;
@@ -104,16 +112,6 @@ p {
 .info h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
 
 #AM {
