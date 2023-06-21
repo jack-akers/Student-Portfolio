@@ -117,6 +117,12 @@ p {
     background-color: black;
     font-weight: bold;
 }
+#MQ{
+    background-image: url("MQ.png"); 
+    background-size: 100%;
+    background-color: black;
+    font-weight: bold;
+}
 .info a{
     color:rgb(0, 0, 0);
     width: 0px; height: 0px;
